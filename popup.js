@@ -3,7 +3,7 @@ const toggle = document.getElementById("toggle");
 
 // Load current state from storage
 chrome.storage.sync.get(["enabled"], (res) => {
-    const enabled = res.enabled !== false; // default true
+    const enabled = res.enabled !== false;
     updateUI(enabled);
 });
 
@@ -21,5 +21,5 @@ toggle.addEventListener("click", () => {
 function updateUI(enabled) {
     status.textContent = enabled ? "Status: ON" : "Status: OFF";
     toggle.textContent = enabled ? "Disable" : "Enable";
-    toggle.style.background = enabled ? "#ff0000" : "#555"; // Change color when disabled
+    toggle.style.background = enabled ? "#ff0000" : "#555";
 }
