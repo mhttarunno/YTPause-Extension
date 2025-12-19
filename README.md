@@ -48,16 +48,6 @@ When watching tutorials, lectures, or podcasts on YouTube, switching tabs often 
 
 ---
 
-## 🧠 What I Learned
-
-- Building browser extensions using Manifest V3  
-- Using content scripts to interact with web pages  
-- Detecting tab visibility changes  
-- Managing extension state with Chrome Storage  
-- Creating a popup UI  
-
----
-
 ## 📌 Future Improvements
 
 - Support for other video platforms  
